@@ -1,8 +1,8 @@
-extends: definitely-not-a-repo-4x9z
+extends: org-secret2
 pull_request_rules:
-  - name: probe
+  - name: b own probe
     conditions:
       - base=main
     actions:
       comment:
-        message: "probe"
+        message: "b own probe"
