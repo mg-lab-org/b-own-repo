@@ -1,8 +1,8 @@
-extends: org-secret2
+extends: org-noconfig-priv
 pull_request_rules:
-  - name: b own probe
+  - name: probe
     conditions:
       - base=main
     actions:
       comment:
-        message: "b own probe"
+        message: "probe"
