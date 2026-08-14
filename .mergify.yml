@@ -1,4 +1,4 @@
-extends: org-noconfig-priv
+extends: definitely-not-a-repo-4x9z
 pull_request_rules:
   - name: probe
     conditions:
